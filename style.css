@@ -1,0 +1,32 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  height: 40px;
+  width: 40px;
+}
+.header {
+  display: inline-block;
+}
+.nav {
+  float: right;
+}
+li {
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+}
+.navbar {
+  background-color: aqua;
+}
+li :hover {
+  background-color: blueviolet;
+  color: #000;
+}
+li a {
+  transition: 1.5s;
+  color: blueviolet;
+}
